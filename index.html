@@ -827,7 +827,7 @@
           <div class="col-md-6">
             <div class="contact-form">
               <strong>Send me a message</strong>
-              <!-- <form name="contact-form" id="contactForm" action="sendemail.php" method="POST"> -->
+              <form name="contact-form" id="contactForm" action="sendemail.php" method="POST">
 
                 <div class="form-group">
                   <label for="name">Name</label>
@@ -850,7 +850,7 @@
                 </div>
 
                 <button type="submit" name="submit" class="btn btn-primary send">Send Message</button>
-              <!-- </form> -->
+              </form>
             </div><!-- /.contact-form -->
           </div><!-- /.col-md-6 -->
 
@@ -927,7 +927,7 @@
   <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script> -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB_6zWpAiuUHfUx8dVc3YTqyP6WR2M3r4I&callback=initMap"></script>
   <script src="assets/js/scripts.js"></script>
-  <script> 
+ <!--  <script> 
   $(function(){
     $('html,body').on('click', '.send', function(event){
       $email = $('email').val();
@@ -938,7 +938,7 @@
       type: 'POST',
       url: 'https://mandrillapp.com/api/1.0/messages/send.json',
       data: {
-        'key': 'xlQUMZE-xONIj4XZJLsjZg',
+        'key': '',
         'message': {
           'from_email': '$email',
           'to': [
@@ -960,6 +960,6 @@
     });
 
   });
-  </script>
+  </script> -->
 </body>m
 </html>
